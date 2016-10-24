@@ -1,0 +1,442 @@
+.alert {
+    margin-bottom: 0;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    background: #1c1c1c;
+    border-color: #000;
+}
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+    right: 12px;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    margin-right: 20px;
+}
+.alert p {
+    font-size: 16px;
+}
+.alert>p, .alert>ul {
+    margin-bottom: 0;
+}
+.alert a {
+    color: #00aeef;
+    font-size: 16px;
+}
+.alert {
+    margin-bottom: 0;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    background: #1c1c1c;
+    border-color: #000;
+}
+.ct-section-header {
+    padding-top: 35px;
+}
+.ct-section-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #101f1d;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+    letter-spacing: 1.25px;
+    margin-bottom: 5px;
+}
+.ct-section-header__separator {
+    display: block;
+    padding-top: 8px;
+}
+html, body, img, figure {
+    max-width: 100%;
+}
+.text-center {
+    text-align: center !important;
+}
+.ct-choice-box {
+    padding: 30px 0 16px;
+    display: block;
+    position: relative;
+}
+a {
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.ct-choice-box .inner, .ct-isotope-item {
+    cursor: pointer;
+}
+.ct-isotope-item__inner, .ct-choice-box .inner {
+    display: block;
+}
+.ct-choice-box .inner {
+    position: relative;
+}
+.ct-choice-box img {
+    width: 100%;
+    -webkit-transition: opacity 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-isotope-gallery {
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 32px 0;
+}
+.ct-isotope-item {
+    width: 100%;
+    padding: 4px;
+    float: left;
+}
+.ct-isotope-item__inner, .ct-choice-box .inner {
+    display: block;
+}
+.ct-isotope-item__inner {
+    position: relative;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-isotope-item__media img {
+    width: 100%;
+}
+.ct-isotope-item__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ct-isotope-item--medium .ct-isotope-item__arrow {
+    right: 20px;
+    bottom: 22px;
+}
+.ct-isotope-item__arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    z-index: 2;
+}
+.ct-isotope-item__title .outer {
+    height: 100%;
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 32px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 1.25px;
+}
+.ct-isotope-item__title .outer > .ct-isotope-item__title .outer__inner, .ct-isotope-item__title .outer > .inner {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.ct-isotope-item__title .outer span {
+    display: inline-block;
+    max-width: 268px;
+    text-align: left;
+    width: 100%;
+}
+.ct-isotope-item__inner:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 5;
+}
+.ct-isotope-item__inner {
+    position: relative;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-isotope-item__inner {
+    position: relative;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+html:not(.mobile):not(.tablet) .ct-choice-box:hover {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    z-index: 10;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.ct-choice-box::before {
+    position: static;
+}
+.ct-choice-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ct-choice-box img {
+    width: 100%;
+    -webkit-transition: opacity 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+html, body, img, figure {
+    max-width: 100%;
+}
+.ct-choice-box.business .ct-choice-box__header {
+    background: #2fbfbc;
+}
+.ct-choice-box.residents .ct-choice-box__header {
+    background: #fd4f00;
+}
+html:not(.mobile):not(.tablet) .ct-choice-box:hover.residents .ct-choice-box__header {
+    background: #ca4103;
+}
+html:not(.mobile):not(.tablet) .ct-choice-box:hover.living .ct-choice-box__header {
+    background: #000000;
+}
+.ct-choice-box.living .ct-choice-box__header {
+    background: #363636;
+}
+.ct-choice-box.workforce .ct-choice-box__header {
+    background: #2fbfbc;
+}
+.ct-choice-box__header {
+    position: absolute;
+    bottom: 28px;
+    letter-spacing: 1px;
+    left: 0;
+    padding: 10px 29px 14px 25px;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 37px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-choice-box__header {
+    position: absolute;
+    bottom: 28px;
+    letter-spacing: 1px;
+    left: 0;
+    padding: 10px 29px 14px 25px;
+    line-height: 1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 37px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+@media (max-height: 766px)
+.ct-isotope-gallery {
+    padding-bottom: 60px;
+}
+@media only screen and (min-width: 1024px)
+.ct-isotope-gallery {
+    padding-bottom: 60px;
+}
+.ct-isotope-gallery {
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 32px 0;
+}
+@media only screen and (min-width: 1024px)
+.ct-isotope-gallery .ct-isotope-item--medium {
+    width: 30.5847%;
+}
+@media only screen and (min-width: 768px)
+.ct-isotope-gallery .ct-isotope-item {
+    width: 50%;
+}
+.ct-choice-box .inner, .ct-isotope-item {
+    cursor: pointer;
+}
+.ct-isotope-item {
+    width: 100%;
+    padding: 4px;
+    float: left;
+}
+.ct-isotope-item__inner, .ct-choice-box .inner {
+    display: block;
+}
+.ct-isotope-item__inner {
+    position: relative;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-isotope-item__inner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-isotope-item__media img {
+    width: 100%;
+}
+html, body, img, figure {
+    max-width: 100%;
+}
+.ct-isotope-item__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ct-isotope-item--medium .ct-isotope-item__arrow {
+    right: 20px;
+    bottom: 22px;
+}
+.ct-isotope-item__arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    z-index: 2;
+}
+@media only screen and (max-width: 1398px)
+.ct-isotope-item__title .outer {
+    font-size: 24px;
+    padding: 10px 0;
+}
+.ct-isotope-item__title .outer {
+    height: 100%;
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 32px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+    letter-spacing: 1.25px;
+}
+.ct-isotope-item__title .outer > .ct-isotope-item__title .outer__inner, .ct-isotope-item__title .outer > .inner {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 1398px)
+.ct-isotope-item .outer span {
+    text-align: center;
+}
+.ct-isotope-item__title .outer span {
+    display: inline-block;
+    max-width: 268px;
+    text-align: left;
+    width: 100%;
+}
+.ct-isotope-item--medium .ct-isotope-item__arrow {
+    right: 20px;
+    bottom: 22px;
+}
+.ct-isotope-item__arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    z-index: 2;
+}
+.ct-isotope-item__inner.accent:after {
+    opacity: 0.8;
+    background: #2fbfbc;
+}
+.ct-isotope-item__inner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    -webkit-transition: opacity 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+@media only screen and (min-width: 1399px)
+html:not(.ie8) .ct-isotope-gallery .ct-isotope-item--small {
+    width: 270px;
+}
+@media only screen and (min-width: 1024px)
+.ct-isotope-gallery .ct-isotope-item--small {
+    width: 19.7901%;
+}
+@media only screen and (min-width: 768px)
+.ct-isotope-gallery .ct-isotope-item {
+    width: 50%;
+}
+.ct-isotope-item__inner, .ct-choice-box .inner {
+    display: block;
+}
+.ct-isotope-item__inner {
+    position: relative;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-isotope-item__inner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+
