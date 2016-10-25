@@ -417,6 +417,7 @@ html:not(.ie8) .ct-isotope-gallery .ct-isotope-item--small {
 .ct-isotope-gallery .ct-isotope-item {
     width: 50%;
 }
+
 .ct-isotope-item__inner, .ct-choice-box .inner {
     display: block;
 }
